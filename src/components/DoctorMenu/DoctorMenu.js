@@ -5,9 +5,9 @@ import {NavLink} from 'react-router-dom'
 const DoctorMenu = props => {
     return(
         <div className={classes.Container}>
-            <NavLink to='/doctorlogin' className={classes.Item}>Login</NavLink>
+            <NavLink to='/doctor/login' className={classes.Item} onClick={props.hideDoctorMenu}>Login</NavLink>
             <span className={classes.Line}></span>
-            <NavLink to='/doctorregister' className={classes.Item}>Register</NavLink>
+            <NavLink to='/doctor/register' className={classes.Item} onClick={props.hideDoctorMenu}>Register</NavLink>
         </div>
     )
 }

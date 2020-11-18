@@ -1,0 +1,110 @@
+.Container {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Rubik';
+}
+
+.Container .Left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4% 5% 4% 8%;
+  font-family: 'Rubik';
+}
+
+.Container .Left .Heading {
+  color: #fd5c63;
+  font-weight: 500;
+}
+
+.Container .Left .Main {
+  color: #686868;
+  font-weight: 500;
+  font-size: 4.75rem;
+  padding-right: 10%;
+}
+
+.Container .Left .ProceedSection {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.145);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.145);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Container .Left .ProceedSection input {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-family: 'Rubik';
+  padding: 0px 5%;
+  letter-spacing: 1px;
+}
+
+.Container .Left .ProceedSection .ProceedButton {
+  background-color: #fd5c63;
+  height: 80%;
+  padding: 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Left .ProceedSection .ProceedButton:hover {
+  cursor: pointer;
+  background-color: #f72c36;
+}
+
+.Container .Right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.Container .Right img {
+  width: 75%;
+}
+/*# sourceMappingURL=DoctorRegister.module.css.map */

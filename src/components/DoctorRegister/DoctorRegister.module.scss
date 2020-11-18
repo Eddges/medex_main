@@ -1,0 +1,72 @@
+.Container{
+    width : 100%;
+    height : calc(100vh - 80px);
+    display : flex;
+    font-family: 'Rubik';
+    .Left{
+        width : 50%;
+        display : flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding : 4% 5% 4% 8%;
+        font-family : 'Rubik';
+        .Heading{
+            color : #fd5c63;
+            font-weight: 500;
+        }
+        .Main{
+            color : #686868;
+            font-weight: 500;
+            font-size : 4.75rem;
+            padding-right : 10%;
+        }
+        .ProceedSection{
+            width : 100%;
+            height : 60px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.145);
+            display : flex;
+            align-items: center;
+            justify-content: space-between;
+            // padding : 0px 5%;
+            input{
+                background-color: transparent;
+                border : none;
+                font-size : 1rem;
+                font-family: 'Rubik';
+                padding : 0px 5%;
+                letter-spacing: 1px;
+            }
+            .ProceedButton{
+                background-color : #fd5c63;
+                height : 80%;
+                padding : 0px 30px;
+                display : flex;
+                align-items: center;
+                justify-content: center;
+                color : white;
+                text-decoration: none;
+                font-weight: 600;
+                border-radius: 5px;
+                margin-right: 5px;
+                letter-spacing: 1px;
+                transition: all 0.2s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #f72c36;
+                }
+            }
+        }
+    }
+    .Right{
+        width : 50%;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        img{
+            width : 75%;
+        }
+    }
+}
