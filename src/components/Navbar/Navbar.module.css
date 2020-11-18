@@ -29,7 +29,7 @@
 
 .Container .Logo img {
   height: 80%;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .Container .Menu {
@@ -45,8 +45,6 @@
   height: 100%;
   font-family: 'Montserrat';
   font-weight: 600;
-  color: #777;
-  text-decoration: none;
 }
 
 .Container .Menu .MenuItem {
@@ -57,16 +55,79 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 20px;
+  padding: 0px 25px;
   height: 100%;
+  color: #777;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Menu .MenuItem:hover {
+  background-color: #eeeeee;
 }
 
 .Container .Menu .MenuItem .ActiveMenuItem {
   height: 5px;
-  width: 100%;
-  background-color: #FD5C63;
+  width: 0%;
   position: absolute;
+  background-color: #FD5C63;
   left: 0px;
   bottom: 0px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .ButtonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px;
+}
+
+.Container .ButtonDiv .LoginButton {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #FD5C63;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0px 20px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.Container .ButtonDiv .LoginButton:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  text-shadow: 0px 5px 5px #fd5c644d;
+}
+
+.Container .ButtonDiv .SignUpButton {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  background-color: #FD5C63;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 8px 30px;
+  margin: 0px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 5px #fd5c644d;
+          box-shadow: 0px 5px 5px #fd5c644d;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .ButtonDiv .SignUpButton:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 8px 8px #fd5c6475;
+          box-shadow: 0px 8px 8px #fd5c6475;
 }
 /*# sourceMappingURL=Navbar.module.css.map */
