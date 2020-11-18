@@ -1,0 +1,35 @@
+.Container{
+    position : absolute;
+    top : 60px;
+    left : 50px;
+    padding : 20px 20px;
+    border-radius : 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.179);
+    background-color: white;
+    display : flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    min-width : 200px;
+    &:hover{
+        cursor: default;
+    }
+    .Line{
+        margin : 10px 0px;
+        height : 1px;
+        width : 100%;
+        background-color: #dadada;
+    }
+    .Item{
+        text-decoration: none;
+        font-weight: 500;
+        color : #777;
+        width : 100%;
+        padding : 20px 15px;
+        transition: all 0.2s;
+        &:hover{
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.049);
+            border-radius: 5px;
+        }
+    }
+}

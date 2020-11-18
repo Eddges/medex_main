@@ -65,6 +65,7 @@
 
 .Container .Menu .MenuItem:hover {
   background-color: #eeeeee;
+  cursor: pointer;
 }
 
 .Container .Menu .MenuItem .ActiveMenuItem {

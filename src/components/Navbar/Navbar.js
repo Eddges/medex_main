@@ -3,8 +3,27 @@ import classes from './Navbar.module.css'
 import Logo from '../../assets/Logo.svg'
 import {NavLink} from 'react-router-dom'
 import './Navbar.css'
+import DoctorMenu from '../DoctorMenu/DoctorMenu'
 
 class Navbar extends React.Component{
+
+    state = {
+        showDoctorMenu : false
+    }
+
+    showDoctorMenu = () => {
+        this.setState({
+            ...this.state,
+            showDoctorMenu : true
+        })
+    }
+
+    hideDoctorMenu = () => {
+        this.setState({
+            ...this.state,
+            showDoctorMenu : false
+        })
+    }
 
     render(){
         return(
@@ -26,10 +45,14 @@ class Navbar extends React.Component{
                         <span className={classes.ActiveMenuItem}></span>
                     </NavLink>
 
-                    <NavLink to="/professional" exact className={classes.MenuItem} activeClassName='ActiveMenuItem' >
+                    <div exact className={classes.MenuItem} activeClassName='ActiveMenuItem' onMouseEnter={this.showDoctorMenu} onMouseLeave={this.hideDoctorMenu} >
                         <span className={classes.MenuText}>For Doctors &nbsp; &#x25BC;</span>
                         <span className={classes.ActiveMenuItem}></span>
-                    </NavLink>
+                        {
+                            this.state.showDoctorMenu ? 
+                            <DoctorMenu /> : null
+                        }
+                    </div>
 
                 </div>
 

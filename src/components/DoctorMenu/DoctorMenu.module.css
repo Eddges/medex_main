@@ -1,0 +1,47 @@
+.Container {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.179);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.179);
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Montserrat';
+  min-width: 200px;
+}
+
+.Container:hover {
+  cursor: default;
+}
+
+.Container .Line {
+  margin: 10px 0px;
+  height: 1px;
+  width: 100%;
+  background-color: #dadada;
+}
+
+.Container .Item {
+  text-decoration: none;
+  font-weight: 500;
+  color: #777;
+  width: 100%;
+  padding: 20px 15px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Item:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.049);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=DoctorMenu.module.css.map */
