@@ -1,0 +1,247 @@
+.Container{
+    // height : calc(100vh - 80px);
+    width : 100%;
+    font-family : 'Rubik';
+    padding : 5% 8%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    color : #777;
+    
+    .Left{
+        width : 45%;
+        height : 100%;
+        display : flex;
+        flex-direction : column;
+        // padding-bottom : 20px;
+        .Header{
+            position : relative;
+            display : flex;
+            align-items: center;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                position : absolute;
+                transform: translate(-200%);
+                text-decoration: none;
+                color : default;
+                i{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width : 25px;
+                    height : 25px;
+                    border-radius: 50%;
+                    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+                }
+            }
+
+        }
+        .Input{
+            display : flex;
+            flex-direction: column;
+            margin-top : 30px;
+            .Label{
+                font-size : 1rem;
+                font-weight: 300;
+            }
+            input, select{
+                margin-top : 10px;
+                width : 90%;
+                border : solid 1px rgba(0, 0, 0, 0.118);
+                padding : 8px;
+                border-radius: 5px;
+                background-color: white;
+            }
+            .InputSmall{
+                width : 50%;
+                display : flex;
+                flex-direction: column;
+                input, select{
+                    width : 80%;
+                    background-color: white;
+                }
+            }
+        }
+        .InputRow{
+            flex-direction: row;
+        }
+    }
+    .Right{
+        width : 45%;
+        height : 100%;
+        display : flex;
+        flex-direction: column;
+        .Input{
+            display : flex;
+            flex-direction: column;
+            margin-top : 30px;
+            .Label{
+                font-size : 1rem;
+                font-weight: 300;
+            }
+            .LanguageInput{
+                display : flex;
+                align-items: center;
+                input{
+                    width : 150px;
+                }
+                i{
+                    display : flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top : 10px;
+                    margin-left : 20px;
+                    border-radius: 2px;
+                    width : 28px;
+                    height : 28px;
+                    // box-shadow : 0px 0px 5px rgba(0, 0, 0, 0.275);
+                    background-color: rgba(128, 128, 128, 0.124);
+                    cursor: pointer;
+                }
+            }
+            input, select{
+                margin-top : 10px;
+                width : 90%;
+                border : solid 1px rgba(0, 0, 0, 0.118);
+                padding : 8px;
+                border-radius: 5px;
+                background-color: white;
+            }
+            .InputSmall{
+                width : 50%;
+                display : flex;
+                flex-direction: column;
+                input, select{
+                    width : 80%;
+                    background-color: white;
+                }
+            }
+        }
+        .Languages{
+            .LanguageList{
+                padding : 10px 0px;
+                display : flex;
+                width : 80%;
+                .Language{
+                    padding : 4px 8px;
+                    margin : 0px 5px;
+                    border : solid 1px rgba(128, 128, 128, 0.138);
+                    border-radius: 5px;
+                    background-color : rgba(128, 128, 128, 0.097);
+                }
+            }
+        }
+        .Education{
+            margin-top : 35px;
+            font-weight: 300;
+            display : flex;
+            flex-direction : column;
+            .HRLine{
+                width : 90%;
+                margin : 20px 0px 10px 0px;
+                height : 1px;
+                background-color: rgba(0, 0, 0, 0.042);
+            }
+            .EducationList{
+                padding : 00px 0px;
+                display : flex;
+                flex-direction: column;
+                .DivEducation{
+                    display : flex;
+                    flex-direction: column;
+                    width : 90%;
+                    padding :5px 0px;
+                    span{
+                        padding : 2px 0px;
+                    }
+                    .University{
+                        font-style: italic;
+                        font-weight : 500;
+                    }
+                    .Degree{
+                        font-weight: 700;
+                        font-size: 0.8rem;
+                        padding : 4px 8px;
+                        background-color : rgba(0, 201, 0, 0.104);
+                        color : rgb(0, 199, 0);
+                        width : default;
+                        align-self: flex-start;
+                        border-radius: 4px;
+                        margin : 5px 0px;
+                    }
+                    .Dates{
+                        font-size : 0.75rem;
+                    }
+                }
+            }
+            .InputEducation{
+                display : flex;
+                flex-wrap: wrap;
+                // justify-content: space-between;
+                input{
+                    margin-top : 5px;
+                    width : 90%;
+                    border : solid 1px rgba(0, 0, 0, 0.118);
+                    padding : 8px;
+                    border-radius: 5px;
+                    background-color: white;
+                }
+                // .InputEducationSmall{
+                //     width : 15%;
+                //     margin-right : 5%;
+                // }
+                .InputEducationDegree{
+                    width : 40%;
+                }
+                .EducationYear{
+                    width : 50%;
+                    display : flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    input{
+                        width : 30%;
+                        margin-left : 10px;
+                    }
+                    i{
+                        display : flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top : 5px;
+                        margin-left : 20px;
+                        border-radius: 2px;
+                        width : 28px;
+                        height : 28px;
+                        // box-shadow : 0px 0px 5px rgba(0, 0, 0, 0.275);
+                        background-color: rgba(128, 128, 128, 0.124);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .SubmitButton{
+            margin-top : 35px;
+            text-decoration: none;
+            color : white;
+            background-color: #fd5c63;
+            border-radius : 5px;
+            padding : 10px 20px;
+            width : 250px;
+            display : flex;
+            justify-content: center;
+            box-shadow: 0px 0px 10px #fd5c64a3;
+            transition: all 0.2s;
+            font-weight: 500;
+            &:hover{
+                box-shadow: 0px 0px 20px #fd5c64d4;
+            }
+        }
+    }
+    .VLine{
+        width : 1px;
+        height : 300px;
+        background-color:rgb(235, 235, 235);
+    }
+}

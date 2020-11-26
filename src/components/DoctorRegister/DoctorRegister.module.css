@@ -1,6 +1,5 @@
 .Container {
   width: 100%;
-  height: calc(100vh - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,6 +32,7 @@
   font-weight: 500;
   font-size: 4.75rem;
   padding-right: 10%;
+  margin-top: 30px;
 }
 
 .Container .Left .ProceedSection {
@@ -51,6 +51,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 30px;
 }
 
 .Container .Left .ProceedSection input {

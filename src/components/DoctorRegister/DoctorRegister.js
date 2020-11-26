@@ -11,7 +11,7 @@ const DoctorRegister = props => {
                 <span className={classes.Main}>Get started in three easy steps</span>
                 <div className={classes.ProceedSection}>
                     <input placeholder="Enter you phone number" />
-                    <NavLink to='/doctorregisterform' className={classes.ProceedButton}>Proceed</NavLink>
+                    <NavLink to='/doctor/registerform' className={classes.ProceedButton}>Proceed</NavLink>
                 </div>
             </div>
             <div className={classes.Right}>

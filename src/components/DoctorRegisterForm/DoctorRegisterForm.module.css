@@ -1,0 +1,380 @@
+.Container {
+  width: 100%;
+  font-family: 'Rubik';
+  padding: 5% 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #777;
+}
+
+.Container .Left {
+  width: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Container .Left .Header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .Left .Header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-transform: translate(-200%);
+          transform: translate(-200%);
+  text-decoration: none;
+  color: default;
+}
+
+.Container .Left .Header a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+.Container .Left .Input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.Container .Left .Input .Label {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.Container .Left .Input input, .Container .Left .Input select {
+  margin-top: 10px;
+  width: 90%;
+  border: solid 1px rgba(0, 0, 0, 0.118);
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Container .Left .Input .InputSmall {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Container .Left .Input .InputSmall input, .Container .Left .Input .InputSmall select {
+  width: 80%;
+  background-color: white;
+}
+
+.Container .Left .InputRow {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Container .Right {
+  width: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Container .Right .Input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.Container .Right .Input .Label {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.Container .Right .Input .LanguageInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .Right .Input .LanguageInput input {
+  width: 150px;
+}
+
+.Container .Right .Input .LanguageInput i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 2px;
+  width: 28px;
+  height: 28px;
+  background-color: rgba(128, 128, 128, 0.124);
+  cursor: pointer;
+}
+
+.Container .Right .Input input, .Container .Right .Input select {
+  margin-top: 10px;
+  width: 90%;
+  border: solid 1px rgba(0, 0, 0, 0.118);
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Container .Right .Input .InputSmall {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Container .Right .Input .InputSmall input, .Container .Right .Input .InputSmall select {
+  width: 80%;
+  background-color: white;
+}
+
+.Container .Right .Languages .LanguageList {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+.Container .Right .Languages .LanguageList .Language {
+  padding: 4px 8px;
+  margin: 0px 5px;
+  border: solid 1px rgba(128, 128, 128, 0.138);
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.097);
+}
+
+.Container .Right .Education {
+  margin-top: 35px;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Container .Right .Education .HRLine {
+  width: 90%;
+  margin: 20px 0px 10px 0px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.042);
+}
+
+.Container .Right .Education .EducationList {
+  padding: 00px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Container .Right .Education .EducationList .DivEducation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  padding: 5px 0px;
+}
+
+.Container .Right .Education .EducationList .DivEducation span {
+  padding: 2px 0px;
+}
+
+.Container .Right .Education .EducationList .DivEducation .University {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.Container .Right .Education .EducationList .DivEducation .Degree {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  background-color: rgba(0, 201, 0, 0.104);
+  color: #00c700;
+  width: default;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border-radius: 4px;
+  margin: 5px 0px;
+}
+
+.Container .Right .Education .EducationList .DivEducation .Dates {
+  font-size: 0.75rem;
+}
+
+.Container .Right .Education .InputEducation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Container .Right .Education .InputEducation input {
+  margin-top: 5px;
+  width: 90%;
+  border: solid 1px rgba(0, 0, 0, 0.118);
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Container .Right .Education .InputEducation .InputEducationDegree {
+  width: 40%;
+}
+
+.Container .Right .Education .InputEducation .EducationYear {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .Right .Education .InputEducation .EducationYear input {
+  width: 30%;
+  margin-left: 10px;
+}
+
+.Container .Right .Education .InputEducation .EducationYear i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 2px;
+  width: 28px;
+  height: 28px;
+  background-color: rgba(128, 128, 128, 0.124);
+  cursor: pointer;
+}
+
+.Container .Right .SubmitButton {
+  margin-top: 35px;
+  text-decoration: none;
+  color: white;
+  background-color: #fd5c63;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 10px #fd5c64a3;
+          box-shadow: 0px 0px 10px #fd5c64a3;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.Container .Right .SubmitButton:hover {
+  -webkit-box-shadow: 0px 0px 20px #fd5c64d4;
+          box-shadow: 0px 0px 20px #fd5c64d4;
+}
+
+.Container .VLine {
+  width: 1px;
+  height: 300px;
+  background-color: #ebebeb;
+}
+/*# sourceMappingURL=DoctorRegisterForm.module.css.map */
